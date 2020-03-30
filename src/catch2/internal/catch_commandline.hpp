@@ -9,7 +9,7 @@
 #define TWOBLUECUBES_CATCH_COMMANDLINE_HPP_INCLUDED
 
 #include <catch2/catch_config.hpp>
-#include <catch2/catch_clara.h>
+#include <catch2/internal/catch_clara.hpp>
 
 namespace Catch {
 

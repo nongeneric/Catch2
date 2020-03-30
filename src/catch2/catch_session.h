@@ -8,7 +8,7 @@
 #ifndef TWOBLUECUBES_CATCH_RUNNER_HPP_INCLUDED
 #define TWOBLUECUBES_CATCH_RUNNER_HPP_INCLUDED
 
-#include <catch2/catch_commandline.h>
+#include <catch2/internal/catch_commandline.hpp>
 #include <catch2/catch_config.hpp>
 #include <catch2/catch_text.h>
 

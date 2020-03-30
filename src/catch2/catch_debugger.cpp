@@ -10,7 +10,7 @@
 #include <catch2/catch_debugger.h>
 #include <catch2/catch_errno_guard.h>
 #include <catch2/catch_stream.h>
-#include <catch2/catch_platform.h>
+#include <catch2/internal/catch_platform.hpp>
 
 #if defined(CATCH_PLATFORM_MAC) || defined(CATCH_PLATFORM_IPHONE)
 

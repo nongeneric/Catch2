@@ -7,7 +7,7 @@
  */
 
 #include <catch2/catch_startup_exception_registry.h>
-#include <catch2/catch_compiler_capabilities.h>
+#include <catch2/internal/catch_compiler_capabilities.hpp>
 
 namespace Catch {
 void StartupExceptionRegistry::add( std::exception_ptr const& exception ) noexcept {

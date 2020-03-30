@@ -13,7 +13,7 @@
 #include <cstddef>
 #include <type_traits>
 #include <string>
-#include <catch2/catch_compiler_capabilities.h>
+#include <catch2/internal/catch_compiler_capabilities.hpp>
 #include <catch2/catch_stream.h>
 #include <catch2/catch_interfaces_enum_values_registry.h>
 

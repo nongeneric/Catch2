@@ -6,7 +6,7 @@
  *  file LICENSE_1_0.txt or copy at http://www.boost.org/LICENSE_1_0.txt)
  */
 
-#include <catch2/catch_assertionhandler.h>
+#include <catch2/internal/catch_assertionhandler.hpp>
 #include <catch2/catch_assertionresult.h>
 #include <catch2/catch_interfaces_runner.h>
 #include <catch2/catch_interfaces_config.h>
@@ -14,7 +14,7 @@
 #include <catch2/catch_enforce.h>
 #include <catch2/catch_debugger.h>
 #include <catch2/catch_interfaces_registry_hub.h>
-#include <catch2/internal/catch_capture_matchers.h>
+#include <catch2/internal/catch_capture_matchers.hpp>
 #include <catch2/catch_run_context.h>
 #include <catch2/matchers/catch_matchers_string.hpp>
 

@@ -9,7 +9,7 @@
 #define TWOBLUECUBES_CATCH_INTERFACES_EXCEPTION_H_INCLUDED
 
 #include <catch2/catch_interfaces_registry_hub.h>
-#include <catch2/catch_compiler_capabilities.h>
+#include <catch2/internal/catch_compiler_capabilities.hpp>
 
 #if defined(CATCH_CONFIG_DISABLE)
     #define INTERNAL_CATCH_TRANSLATE_EXCEPTION_NO_REG( translatorName, signature) \

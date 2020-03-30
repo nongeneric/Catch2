@@ -6,8 +6,8 @@
  *  file LICENSE_1_0.txt or copy at http://www.boost.org/LICENSE_1_0.txt)
  *
  */
-#ifndef TWOBLUECUBES_CATCH_PLATFORM_H_INCLUDED
-#define TWOBLUECUBES_CATCH_PLATFORM_H_INCLUDED
+#ifndef TWOBLUECUBES_CATCH_PLATFORM_HPP_INCLUDED
+#define TWOBLUECUBES_CATCH_PLATFORM_HPP_INCLUDED
 
 #ifdef __APPLE__
 # include <TargetConditionals.h>

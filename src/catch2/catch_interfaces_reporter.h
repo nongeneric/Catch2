@@ -9,7 +9,7 @@
 #define TWOBLUECUBES_CATCH_INTERFACES_REPORTER_H_INCLUDED
 
 #include <catch2/catch_section_info.h>
-#include <catch2/catch_common.h>
+#include <catch2/internal/catch_common.hpp>
 #include <catch2/catch_config.hpp>
 #include <catch2/catch_totals.h>
 #include <catch2/catch_test_case_info.h>

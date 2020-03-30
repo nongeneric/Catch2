@@ -1,5 +1,5 @@
 #include <catch2/catch_run_context.h>
-#include <catch2/catch_compiler_capabilities.h>
+#include <catch2/internal/catch_compiler_capabilities.hpp>
 #include <catch2/catch_context.h>
 #include <catch2/catch_enforce.h>
 #include <catch2/catch_random_number_generator.h>

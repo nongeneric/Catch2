@@ -9,8 +9,8 @@
 #ifndef TWOBLUECUBES_CATCH_FATAL_CONDITION_H_INCLUDED
 #define TWOBLUECUBES_CATCH_FATAL_CONDITION_H_INCLUDED
 
-#include <catch2/catch_platform.h>
-#include <catch2/catch_compiler_capabilities.h>
+#include <catch2/internal/catch_platform.hpp>
+#include <catch2/internal/catch_compiler_capabilities.hpp>
 #include <catch2/catch_windows_h_proxy.h>
 
 

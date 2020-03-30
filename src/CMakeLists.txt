@@ -33,17 +33,17 @@ set(BENCHMARK_SOURCES
 SOURCE_GROUP("benchmark" FILES ${BENCHMARK_HEADERS} ${BENCHMARK_SOURCES})
 
 set(INTERNAL_HEADERS
-    ${SOURCES_DIR}/internal/catch_capture_matchers.h
+    ${SOURCES_DIR}/internal/catch_capture_matchers.hpp
     ${SOURCES_DIR}/internal/catch_container_nonmembers.hpp
-    ${SOURCES_DIR}/catch_approx.h
-    ${SOURCES_DIR}/catch_assertionhandler.h
+    ${SOURCES_DIR}/catch_approx.hpp
+    ${SOURCES_DIR}/internal/catch_assertionhandler.hpp
     ${SOURCES_DIR}/catch_assertioninfo.h
     ${SOURCES_DIR}/catch_assertionresult.h
-    ${SOURCES_DIR}/catch_capture.hpp
-    ${SOURCES_DIR}/catch_clara.h
-    ${SOURCES_DIR}/catch_commandline.h
-    ${SOURCES_DIR}/catch_common.h
-    ${SOURCES_DIR}/catch_compiler_capabilities.h
+    ${SOURCES_DIR}/internal/catch_capture.hpp
+    ${SOURCES_DIR}/internal/catch_clara.hpp
+    ${SOURCES_DIR}/internal/catch_commandline.hpp
+    ${SOURCES_DIR}/internal/catch_common.hpp
+    ${SOURCES_DIR}/internal/catch_compiler_capabilities.hpp
     ${SOURCES_DIR}/catch_config.hpp
     ${SOURCES_DIR}/catch_console_colour.h
     ${SOURCES_DIR}/catch_context.h
@@ -87,7 +87,7 @@ set(INTERNAL_HEADERS
     ${SOURCES_DIR}/catch_objc_arc.hpp
     ${SOURCES_DIR}/catch_option.hpp
     ${SOURCES_DIR}/catch_output_redirect.h
-    ${SOURCES_DIR}/catch_platform.h
+    ${SOURCES_DIR}/internal/catch_platform.hpp
     ${SOURCES_DIR}/catch_polyfills.hpp
     ${SOURCES_DIR}/catch_preprocessor.hpp
     ${SOURCES_DIR}/catch_random_number_generator.h
@@ -130,11 +130,11 @@ set(INTERNAL_HEADERS
 )
 set(IMPL_SOURCES
     ${SOURCES_DIR}/catch_approx.cpp
-    ${SOURCES_DIR}/catch_assertionhandler.cpp
+    ${SOURCES_DIR}/internal/catch_assertionhandler.cpp
     ${SOURCES_DIR}/catch_assertionresult.cpp
     ${SOURCES_DIR}/internal/catch_capture_matchers.cpp
-    ${SOURCES_DIR}/catch_commandline.cpp
-    ${SOURCES_DIR}/catch_common.cpp
+    ${SOURCES_DIR}/internal/catch_commandline.cpp
+    ${SOURCES_DIR}/internal/catch_common.cpp
     ${SOURCES_DIR}/catch_config.cpp
     ${SOURCES_DIR}/catch_console_colour.cpp
     ${SOURCES_DIR}/catch_context.cpp

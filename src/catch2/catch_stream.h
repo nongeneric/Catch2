@@ -9,7 +9,7 @@
 #ifndef TWOBLUECUBES_CATCH_STREAM_H_INCLUDED
 #define TWOBLUECUBES_CATCH_STREAM_H_INCLUDED
 
-#include "catch_common.h"
+#include <catch2/internal/catch_common.hpp>
 
 #include <iosfwd>
 #include <cstddef>

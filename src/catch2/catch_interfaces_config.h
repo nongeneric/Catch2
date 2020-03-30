@@ -8,7 +8,7 @@
 #ifndef TWOBLUECUBES_CATCH_INTERFACES_CONFIG_H_INCLUDED
 #define TWOBLUECUBES_CATCH_INTERFACES_CONFIG_H_INCLUDED
 
-#include <catch2/catch_common.h>
+#include <catch2/internal/catch_common.hpp>
 #include <catch2/catch_option.hpp>
 
 #include <chrono>

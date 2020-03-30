@@ -7,7 +7,7 @@
  */
 
 #include <catch2/catch_section.h>
-#include <catch2/catch_capture.hpp>
+#include <catch2/internal/catch_capture.hpp>
 #include <catch2/catch_uncaught_exceptions.h>
 
 namespace Catch {

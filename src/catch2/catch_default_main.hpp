@@ -9,7 +9,7 @@
 #define TWOBLUECUBES_CATCH_DEFAULT_MAIN_HPP_INCLUDED
 
 #include <catch2/catch_session.h>
-#include <catch2/catch_platform.h>
+#include <catch2/internal/catch_platform.hpp>
 
 #ifndef __OBJC__
 

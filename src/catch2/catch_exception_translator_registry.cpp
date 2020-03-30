@@ -7,8 +7,8 @@
  */
 
 #include <catch2/catch_exception_translator_registry.h>
-#include <catch2/catch_assertionhandler.h>
-#include <catch2/catch_compiler_capabilities.h>
+#include <catch2/internal/catch_assertionhandler.hpp>
+#include <catch2/internal/catch_compiler_capabilities.hpp>
 #include <catch2/catch_enforce.h>
 
 #ifdef __OBJC__

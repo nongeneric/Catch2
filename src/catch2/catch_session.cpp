@@ -6,7 +6,6 @@
  */
 
 #include <catch2/catch_session.h>
-#include <catch2/catch_commandline.h>
 #include <catch2/catch_console_colour.h>
 #include <catch2/catch_enforce.h>
 #include <catch2/catch_list.h>
