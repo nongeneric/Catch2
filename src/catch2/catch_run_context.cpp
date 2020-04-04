@@ -4,7 +4,7 @@
 #include <catch2/catch_enforce.h>
 #include <catch2/catch_random_number_generator.h>
 #include <catch2/catch_stream.h>
-#include <catch2/catch_output_redirect.h>
+#include <catch2/internal/catch_output_redirect.hpp>
 
 #include <cassert>
 #include <algorithm>

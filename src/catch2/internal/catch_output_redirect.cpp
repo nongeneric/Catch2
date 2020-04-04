@@ -5,7 +5,7 @@
  *  file LICENSE_1_0.txt or copy at http://www.boost.org/LICENSE_1_0.txt)
  */
 
-#include <catch2/catch_output_redirect.h>
+#include <catch2/internal/catch_output_redirect.hpp>
 #include <catch2/catch_enforce.h>
 
 #include <cstdio>

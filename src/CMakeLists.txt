@@ -70,7 +70,7 @@ set(INTERNAL_HEADERS
     ${SOURCES_DIR}/catch_interfaces_runner.h
     ${SOURCES_DIR}/catch_interfaces_tag_alias_registry.h
     ${SOURCES_DIR}/catch_interfaces_testcase.h
-    ${SOURCES_DIR}/catch_leak_detector.h
+    ${SOURCES_DIR}/internal/catch_leak_detector.hpp
     ${SOURCES_DIR}/catch_list.h
     ${SOURCES_DIR}/matchers/catch_matchers.hpp
     ${SOURCES_DIR}/matchers/catch_matchers_container_properties.hpp
@@ -86,7 +86,7 @@ set(INTERNAL_HEADERS
     ${SOURCES_DIR}/catch_objc.hpp
     ${SOURCES_DIR}/catch_objc_arc.hpp
     ${SOURCES_DIR}/catch_option.hpp
-    ${SOURCES_DIR}/catch_output_redirect.h
+    ${SOURCES_DIR}/internal/catch_output_redirect.hpp
     ${SOURCES_DIR}/internal/catch_platform.hpp
     ${SOURCES_DIR}/catch_polyfills.hpp
     ${SOURCES_DIR}/internal/catch_preprocessor.hpp
@@ -156,7 +156,7 @@ set(IMPL_SOURCES
     ${SOURCES_DIR}/catch_interfaces_runner.cpp
     ${SOURCES_DIR}/catch_interfaces_testcase.cpp
     ${SOURCES_DIR}/catch_list.cpp
-    ${SOURCES_DIR}/catch_leak_detector.cpp
+    ${SOURCES_DIR}/internal/catch_leak_detector.cpp
     ${SOURCES_DIR}/matchers/catch_matchers.cpp
     ${SOURCES_DIR}/matchers/catch_matchers_container_properties.cpp
     ${SOURCES_DIR}/matchers/catch_matchers_exception.cpp
@@ -165,7 +165,7 @@ set(IMPL_SOURCES
     ${SOURCES_DIR}/matchers/catch_matchers_string.cpp
     ${SOURCES_DIR}/matchers/catch_matchers_templated.cpp
     ${SOURCES_DIR}/catch_message.cpp
-    ${SOURCES_DIR}/catch_output_redirect.cpp
+    ${SOURCES_DIR}/internal/catch_output_redirect.cpp
     ${SOURCES_DIR}/catch_registry_hub.cpp
     ${SOURCES_DIR}/catch_interfaces_reporter.cpp
     ${SOURCES_DIR}/catch_polyfills.cpp

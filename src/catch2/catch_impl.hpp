@@ -17,7 +17,7 @@
 #include <catch2/catch_test_spec.h>
 #include <catch2/catch_test_case_tracker.h>
 
-#include <catch2/catch_leak_detector.h>
+#include <catch2/internal/catch_leak_detector.hpp>
 
 // Cpp files will be included in the single-header file here
 // ~*~* CATCH_CPP_STITCH_PLACE *~*~
