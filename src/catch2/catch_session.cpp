@@ -20,7 +20,7 @@
 #include <catch2/internal/catch_text.hpp>
 #include <catch2/catch_stream.h>
 #include <catch2/internal/catch_windows_h_proxy.hpp>
-#include <catch2/reporters/catch_reporter_listening.h>
+#include <catch2/reporters/catch_reporter_listening.hpp>
 
 #include <cstdlib>
 #include <iomanip>
