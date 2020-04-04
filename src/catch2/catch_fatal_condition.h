@@ -11,7 +11,7 @@
 
 #include <catch2/internal/catch_platform.hpp>
 #include <catch2/internal/catch_compiler_capabilities.hpp>
-#include <catch2/catch_windows_h_proxy.h>
+#include <catch2/internal/catch_windows_h_proxy.hpp>
 
 
 #if defined( CATCH_CONFIG_WINDOWS_SEH )

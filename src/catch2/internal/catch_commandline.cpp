@@ -8,7 +8,7 @@
 
 #include <catch2/internal/catch_commandline.hpp>
 
-#include <catch2/catch_string_manip.h>
+#include <catch2/internal/catch_string_manip.hpp>
 
 #include <catch2/catch_interfaces_registry_hub.h>
 #include <catch2/catch_interfaces_reporter.h>

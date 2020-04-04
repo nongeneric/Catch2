@@ -7,6 +7,8 @@
 
 #include <catch2/catch_test_spec_parser.h>
 
+#include <catch2/internal/catch_string_manip.hpp>
+
 
 namespace Catch {
 

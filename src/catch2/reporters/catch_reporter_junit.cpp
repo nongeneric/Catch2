@@ -11,6 +11,7 @@
 #include <catch2/reporters/catch_reporter_junit.h>
 
 #include <catch2/catch_tostring.h>
+#include <catch2/internal/catch_string_manip.hpp>
 #include <catch2/catch_reporter_registrars.hpp>
 #include <catch2/catch_text.h>
 

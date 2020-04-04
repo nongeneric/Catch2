@@ -10,7 +10,7 @@
 #include <catch2/catch_console_colour.h>
 #include <catch2/catch_enforce.h>
 #include <catch2/catch_interfaces_registry_hub.h>
-#include <catch2/catch_string_manip.h>
+#include <catch2/internal/catch_string_manip.hpp>
 
 #include <sstream>
 

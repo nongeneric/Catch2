@@ -8,7 +8,7 @@
 #include <catch2/catch_test_case_tracker.h>
 
 #include <catch2/catch_enforce.h>
-#include <catch2/catch_string_manip.h>
+#include <catch2/internal/catch_string_manip.hpp>
 
 #include <algorithm>
 #include <cassert>

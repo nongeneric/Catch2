@@ -19,7 +19,7 @@
 #include <catch2/catch_startup_exception_registry.h>
 #include <catch2/catch_text.h>
 #include <catch2/catch_stream.h>
-#include <catch2/catch_windows_h_proxy.h>
+#include <catch2/internal/catch_windows_h_proxy.hpp>
 #include <catch2/reporters/catch_reporter_listening.h>
 
 #include <cstdlib>

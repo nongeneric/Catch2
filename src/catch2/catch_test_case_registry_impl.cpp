@@ -12,7 +12,7 @@
 #include <catch2/catch_interfaces_registry_hub.h>
 #include <catch2/catch_random_number_generator.h>
 #include <catch2/catch_run_context.h>
-#include <catch2/catch_string_manip.h>
+#include <catch2/internal/catch_string_manip.hpp>
 #include <catch2/catch_test_case_info.h>
 
 #include <sstream>

@@ -10,6 +10,7 @@
 #include <catch2/reporters/catch_reporter_listening.h>
 #include <catch2/catch_list.h>
 #include <catch2/catch_text.h>
+#include <catch2/internal/catch_string_manip.hpp>
 
 #include <algorithm>
 #include <iomanip>

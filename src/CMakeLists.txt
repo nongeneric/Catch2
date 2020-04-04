@@ -53,7 +53,7 @@ set(INTERNAL_HEADERS
     ${SOURCES_DIR}/catch_default_main.hpp
     ${SOURCES_DIR}/catch_enforce.h
     ${SOURCES_DIR}/catch_enum_values_registry.h
-    ${SOURCES_DIR}/catch_errno_guard.h
+    ${SOURCES_DIR}/internal/catch_errno_guard.hpp
     ${SOURCES_DIR}/catch_exception_translator_registry.h
     ${SOURCES_DIR}/catch_fatal_condition.h
     ${SOURCES_DIR}/catch_generator_exception.hpp
@@ -103,7 +103,7 @@ set(INTERNAL_HEADERS
     ${SOURCES_DIR}/catch_startup_exception_registry.h
     ${SOURCES_DIR}/catch_stream.h
     ${SOURCES_DIR}/catch_stringref.h
-    ${SOURCES_DIR}/catch_string_manip.h
+    ${SOURCES_DIR}/internal/catch_string_manip.hpp
     ${SOURCES_DIR}/catch_suppress_warnings.h
     ${SOURCES_DIR}/catch_tag_alias.h
     ${SOURCES_DIR}/catch_tag_alias_autoregistrar.h
@@ -117,7 +117,7 @@ set(INTERNAL_HEADERS
     ${SOURCES_DIR}/catch_test_spec_parser.h
     ${SOURCES_DIR}/catch_text.h
     ${SOURCES_DIR}/catch_timer.h
-    ${SOURCES_DIR}/catch_to_string.hpp
+    ${SOURCES_DIR}/internal/catch_to_string.hpp
     ${SOURCES_DIR}/catch_tostring.h
     ${SOURCES_DIR}/catch_totals.h
     ${SOURCES_DIR}/catch_uncaught_exceptions.h
@@ -125,7 +125,7 @@ set(INTERNAL_HEADERS
     ${SOURCES_DIR}/catch_version.h
     ${SOURCES_DIR}/catch_version_macros.hpp
     ${SOURCES_DIR}/catch_wildcard_pattern.h
-    ${SOURCES_DIR}/catch_windows_h_proxy.h
+    ${SOURCES_DIR}/internal/catch_windows_h_proxy.hpp
     ${SOURCES_DIR}/catch_xmlwriter.h
 )
 set(IMPL_SOURCES
@@ -143,7 +143,7 @@ set(IMPL_SOURCES
     ${SOURCES_DIR}/catch_decomposer.cpp
     ${SOURCES_DIR}/catch_enforce.cpp
     ${SOURCES_DIR}/catch_enum_values_registry.cpp
-    ${SOURCES_DIR}/catch_errno_guard.cpp
+    ${SOURCES_DIR}/internal/catch_errno_guard.cpp
     ${SOURCES_DIR}/catch_exception_translator_registry.cpp
     ${SOURCES_DIR}/catch_fatal_condition.cpp
     ${SOURCES_DIR}/catch_generator_exception.cpp
@@ -178,8 +178,8 @@ set(IMPL_SOURCES
     ${SOURCES_DIR}/catch_singletons.cpp
     ${SOURCES_DIR}/catch_startup_exception_registry.cpp
     ${SOURCES_DIR}/catch_stream.cpp
-    ${SOURCES_DIR}/catch_stringref.cpp
-    ${SOURCES_DIR}/catch_string_manip.cpp
+    ${SOURCES_DIR}/internal/catch_stringref.cpp
+    ${SOURCES_DIR}/internal/catch_string_manip.cpp
     ${SOURCES_DIR}/catch_tag_alias.cpp
     ${SOURCES_DIR}/catch_tag_alias_autoregistrar.cpp
     ${SOURCES_DIR}/catch_tag_alias_registry.cpp

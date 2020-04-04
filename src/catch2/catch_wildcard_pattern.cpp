@@ -7,7 +7,7 @@
 
 #include <catch2/catch_wildcard_pattern.h>
 #include <catch2/catch_enforce.h>
-#include <catch2/catch_string_manip.h>
+#include <catch2/internal/catch_string_manip.hpp>
 
 namespace Catch {
 

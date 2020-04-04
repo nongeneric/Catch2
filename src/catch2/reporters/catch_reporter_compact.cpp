@@ -8,6 +8,7 @@
 #include <catch2/reporters/catch_reporter_compact.h>
 
 #include <catch2/catch_console_colour.h>
+#include <catch2/internal/catch_string_manip.hpp>
 
 namespace {
 

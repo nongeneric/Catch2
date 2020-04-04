@@ -6,7 +6,7 @@
  */
 
 #include <catch2/catch_test_spec.h>
-#include <catch2/catch_string_manip.h>
+#include <catch2/internal/catch_string_manip.hpp>
 #include <catch2/catch_interfaces_config.h>
 
 #include <algorithm>

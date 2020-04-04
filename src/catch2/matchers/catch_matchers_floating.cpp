@@ -8,7 +8,7 @@
 #include <catch2/matchers/catch_matchers_floating.hpp>
 #include <catch2/catch_enforce.h>
 #include <catch2/catch_polyfills.hpp>
-#include <catch2/catch_to_string.hpp>
+#include <catch2/internal/catch_to_string.hpp>
 #include <catch2/catch_tostring.h>
 
 #include <algorithm>
