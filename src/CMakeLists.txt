@@ -82,14 +82,14 @@ set(INTERNAL_HEADERS
     ${SOURCES_DIR}/matchers/catch_matchers_templated.hpp
     ${SOURCES_DIR}/matchers/catch_matchers_vector.hpp
     ${SOURCES_DIR}/catch_message.h
-    ${SOURCES_DIR}/catch_meta.hpp
+    ${SOURCES_DIR}/internal/catch_meta.hpp
     ${SOURCES_DIR}/catch_objc.hpp
     ${SOURCES_DIR}/catch_objc_arc.hpp
     ${SOURCES_DIR}/catch_option.hpp
     ${SOURCES_DIR}/catch_output_redirect.h
     ${SOURCES_DIR}/internal/catch_platform.hpp
     ${SOURCES_DIR}/catch_polyfills.hpp
-    ${SOURCES_DIR}/catch_preprocessor.hpp
+    ${SOURCES_DIR}/internal/catch_preprocessor.hpp
     ${SOURCES_DIR}/catch_random_number_generator.h
     ${SOURCES_DIR}/catch_reenable_warnings.h
     ${SOURCES_DIR}/catch_reporter_registrars.hpp
@@ -115,7 +115,7 @@ set(INTERNAL_HEADERS
     ${SOURCES_DIR}/catch_test_registry.h
     ${SOURCES_DIR}/catch_test_spec.h
     ${SOURCES_DIR}/catch_test_spec_parser.h
-    ${SOURCES_DIR}/catch_text.h
+    ${SOURCES_DIR}/internal/catch_text.hpp
     ${SOURCES_DIR}/catch_timer.h
     ${SOURCES_DIR}/internal/catch_to_string.hpp
     ${SOURCES_DIR}/catch_tostring.h

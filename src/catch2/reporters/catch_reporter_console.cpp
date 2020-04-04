@@ -12,7 +12,7 @@
 #include <catch2/catch_console_colour.h>
 #include <catch2/internal/catch_string_manip.hpp>
 #include <catch2/catch_version.h>
-#include <catch2/catch_text.h>
+#include <catch2/internal/catch_text.hpp>
 #include <catch2/catch_stringref.h>
 
 #include <cfloat>

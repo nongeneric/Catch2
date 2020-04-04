@@ -17,7 +17,7 @@
 #include <catch2/catch_interfaces_reporter.h>
 #include <catch2/catch_random_number_generator.h>
 #include <catch2/catch_startup_exception_registry.h>
-#include <catch2/catch_text.h>
+#include <catch2/internal/catch_text.hpp>
 #include <catch2/catch_stream.h>
 #include <catch2/internal/catch_windows_h_proxy.hpp>
 #include <catch2/reporters/catch_reporter_listening.h>

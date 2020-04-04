@@ -9,7 +9,7 @@
 
 #include <catch2/internal/catch_common.hpp>
 #include <catch2/matchers/catch_matchers.hpp>
-#include <catch2/catch_meta.hpp>
+#include <catch2/internal/catch_meta.hpp>
 
 #include <string>
 #include <utility>

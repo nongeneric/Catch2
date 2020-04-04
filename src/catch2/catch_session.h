@@ -10,7 +10,7 @@
 
 #include <catch2/internal/catch_commandline.hpp>
 #include <catch2/catch_config.hpp>
-#include <catch2/catch_text.h>
+#include <catch2/internal/catch_text.hpp>
 
 #include <memory>
 

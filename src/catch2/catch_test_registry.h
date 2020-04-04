@@ -12,8 +12,8 @@
 #include <catch2/catch_interfaces_testcase.h>
 #include <catch2/internal/catch_compiler_capabilities.hpp>
 #include <catch2/catch_stringref.h>
-#include <catch2/catch_preprocessor.hpp>
-#include <catch2/catch_meta.hpp>
+#include <catch2/internal/catch_preprocessor.hpp>
+#include <catch2/internal/catch_meta.hpp>
 
 #include <memory>
 

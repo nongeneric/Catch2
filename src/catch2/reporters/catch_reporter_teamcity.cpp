@@ -7,7 +7,7 @@
 
 #include <catch2/internal/catch_string_manip.hpp>
 #include <catch2/catch_enforce.h>
-#include <catch2/catch_text.h>
+#include <catch2/internal/catch_text.hpp>
 
 namespace Catch {
 
